@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="Chase Weinholdt">
+<meta name="Description" content="Making a website out of wireframing for final project">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="images/flake.jpg" type="image/x-icon">
+<link rel="icon" href="images/flake.jpg" type="image/x-icon">
+<title>Snow Palace</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+ body, h1, h2, h3, p { margin: 0; padding: 0; 
+}
+  .header {
+    background: rgba(0,0,0,0); padding: 100px 20px; text-align: center; 
+    background: url("images/swiss-valley.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+  }
+  .footer { 
+    background:rgba(0,0,0,0); padding: 10px; text-align: center; 
+}
+  .navigation { 
+    background:rgba(0,0,0,0); text-align: center; padding: 10px ; 
+}
+  .navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+  .navigation ul { 
+    list-style: none; padding: 0; 
+}
+  .navigation ul li { 
+    display: inline; margin-right: 20px; 
+}
+  .navigation ul li:last-child { 
+    margin-right: 0;
+ }
+  .content { 
+    padding: 20px; 
+}
+  .box { 
+    background: rgba(0,0,0,0); padding: 20px; margin-bottom: 20px; text-align: center; 
+}
+  .box img { 
+    width: 100%; height: auto; 
+}
+  .box:not(:last-child) { 
+    margin-bottom: 20px; 
+}
+  .footer { 
+    border-top: 1px solid #23535c; 
+    background-color: #23535c;
+    color: #fff
+}
+</style>
+</head>
+<body>
+
+</head>
+<body>
+
+<header class="header">
+    <h1>Snow Palace</h1>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li> <!-- Placeholder link -->
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+[]
+  <main class="content">
+    <h2>Contact Us</h2>
+    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+    
+    <div class="container1">
+    <div class="box1">
+      <img src="images/swiss-sunset.jpg" alt="Charming Swiss chalet surrounded by the Alpine scenery">
+     </div>
+
+     <form action=" https://wp.zybooks.com/form-viewer.php" method="post">
+        <div class="form-row">
+          <div class="left-column">
+            <div>
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full_name" required>
+            </div>
+      
+            <div>
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+      
+            <div>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+      
+          <div class="right-column">
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <div class="radio-group">
+                  <div>
+                    <input type="radio" id="contact-email" name="preferred_contact" value="email" required>
+                    <label for="contact-email">Email</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="contact-phone" name="preferred_contact" value="phone" required>
+                    <label for="contact-phone">Phone</label>
+                  </div>
+                </div>
+              </fieldset>
+      
+            <div>
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" required></textarea>
+            </div>
+      
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+          </div>
+        </div>
+      </form>
+          
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright ©2023 - Snow Palace</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+  
+  </body>
+  </html>
+  
